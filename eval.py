@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project Name: unet
-File Name: predict.py
-Author: chenming
-Create Date: 2022/2/7
+Project Name: BTEF
+File Name: test.py
+Author: ZhouBaoxian
+Create Date: 2024/3/26
 Description：
 -------------------------------------------------
 """
