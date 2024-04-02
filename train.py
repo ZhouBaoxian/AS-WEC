@@ -1,7 +1,5 @@
-from model.unet import Unet
 from model.MySeg_Model import MySegNet
 from model.MySeg_Model import weights_init
-from model.PVTFromer.model import PVTFormer
 from utils.dataset import ISBI_Loader
 from torch import optim
 import torch.nn as nn
@@ -67,9 +65,9 @@ def train_net(net, device, data_path, epochs=40, batch_size=1, lr=0.00001):
 if __name__ == "__main__":
 
     # 加载网络，图片单通道1，分类为1。
-    net = PVTFormer()  # todo edit input_channels n_classes
+    net = MySegNet(1,1)  # todo edit input_channels n_classes
     # 载入模型权重
-    model_path = ''
+    model_path = 'weights/best_model.pth'
     if model_path != '':
         print('Load weights {}.'.format(model_path))
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
