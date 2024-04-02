@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+-------------------------------------------------
+Project Name: BTEF
+File Name: test.py
+Author: ZhouBaoxian
+Create Date: 2024/3/26
+Description：
+-------------------------------------------------
+"""
 from model.MySeg_Model import MySegNet
 from model.MySeg_Model import weights_init
 from utils.dataset import ISBI_Loader
