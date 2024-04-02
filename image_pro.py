@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+-------------------------------------------------
+Project Name: BTEF
+File Name: test.py
+Author: ZhouBaoxian
+Create Date: 2024/3/26
+Description：
+-------------------------------------------------
+"""
 import numpy as np
 from sklearn.metrics import f1_score, recall_score, mean_absolute_error
 import cv2
