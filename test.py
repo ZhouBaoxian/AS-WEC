@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project Name: unet
-File Name: predict.py
-Author: chenming
-Create Date: 2022/2/7
+Project Name: BTEF
+File Name: test.py
+Author: ZhouBaoxian
+Create Date: 2024/3/26
 Description：
 -------------------------------------------------
 """
@@ -18,9 +18,6 @@ import os
 import cv2
 
 from model.MySeg_Model import MySegNet as createModel
-# from model.segnet import SegNet as createModel
-# from model.unet import Unet as createModel
-# from model.UNetPlus import UnetPlusPlus as createModel
 
 def cal_miou(test_dir="data/Test_Images",
              pred_dir="data/results", gt_dir="data/Test_Labels"):
