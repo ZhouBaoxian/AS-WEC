@@ -17,10 +17,7 @@ import torch
 import os
 import cv2
 
-# from model.MySeg_Model import MySegNet as createModel
-from model.segnet import SegNet as createModel
-# from model.unet import Unet as createModel
-# from model.UNetPlus import UnetPlusPlus as createModel
+from model.MySeg_Model import MySegNet as createModel
 
 def cal_miou(test_dir="data/Test_Images",
              pred_dir="data/results", gt_dir="data/Test_Labels"):
