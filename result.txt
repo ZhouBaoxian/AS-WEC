@@ -9,7 +9,7 @@ SegNet
 ===> mIoU: 79.55; mPA: 93.67; Accuracy: 97.09; Dice: 77.97; Sen: 76.95; MAE: 2.91
 
 Deeplab v3+
-===>background:	Iou-98.26; Recall (equal to the PA)-99.05; Precision-99.2
+===>background:	Iou-98.26; Recall (equal to the PA)-99.05; Precision-99.20
 ===>nidus:	Iou-73.3; Recall (equal to the PA)-85.69; Precision-83.53
 ===> mIoU: 85.78; mPA: 92.37; Accuracy: 98.34; Dice: 83.15; Sen: 86.23; MAE: 1.66
 
